@@ -320,7 +320,7 @@ export default function HomePage() {
               <div className="mb-4">
                 <StarRating rating={review.rating} editable={false} />
               </div>
-              <p className="text-gray-600 mb-4 text-sm">"{review.text}"</p>
+              <p className="text-gray-600 mb-4 text-sm">{review.text}</p>
               <div className="flex items-center">
                 <div>
                   <h4 className="font-medium text-gray-800">{review.name}</h4>
